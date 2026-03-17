@@ -9,9 +9,8 @@ fetch("data/articles.json")
         const row = document.createElement("tr");
 
         row.innerHTML = `
-            <td>${article.date}</td>
+            <td>${article.Index}</td>
             <td>${article.title}</td>
-            <td>${article.author}</td>
             <td><a href="${article.link}" target="_blank">Open</a></td>
         `;
 
